@@ -1,3 +1,5 @@
+/* Comment and describe basic features */
+
 #ifndef Vector3D_h
 #define Vector3D_h
 
