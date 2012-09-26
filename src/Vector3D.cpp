@@ -1,7 +1,5 @@
 #include "Vector3D.h"
 
-
-
 Vector3D::Vector3D(void)
 {
     components[0]=0;
@@ -14,6 +12,7 @@ Vector3D::Vector3D(double  x, double  y, double  z)
     components[1]=y;
     components[2]=z;
 }
+Vector3D::~Vector3D(){}
 Vector3D operator+(Vector3D const& vec1, Vector3D const& vec2)
 {
     return Vector3D(vec1.components[0] + vec2.components[0],vec1.components[1] + vec2.components[1],vec1.components[2] + vec2.components[2]); 
