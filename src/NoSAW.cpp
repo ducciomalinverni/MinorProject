@@ -14,7 +14,6 @@ bool NoSAW::acceptProposedMove(Polymer* modifiedPolymer)
     for (int i=0;i<nMonomers;i++){
         monomerPosition = (*modifiedPolymer)[i]->getPosition();
         if(monomerPosition[2]<0 || monomerPosition[2]>slabSpacing){
-            std::cout<<monomerPosition<<std::endl;
             accept=false;
             break;
         }

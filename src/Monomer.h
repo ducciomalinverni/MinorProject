@@ -13,7 +13,7 @@ Malinverni Duccio, 25 Sept. 2012
 #define Monomer_h
 
 #include "Vector3D.h"
-
+ 
 class Monomer {
 
  public:
